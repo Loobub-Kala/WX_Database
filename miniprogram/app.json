@@ -8,16 +8,7 @@
     "page/component/orders/orders",
     "page/component/details/details",
     "page/component/list/list",
-    "page/component/search/search",
-
-    "pages/index/index",
-    "pages/userConsole/userConsole",
-    "pages/storageConsole/storageConsole",
-    "pages/databaseGuide/databaseGuide",
-    "pages/addFunction/addFunction",
-    "pages/deployFunctions/deployFunctions",
-    "pages/chooseLib/chooseLib",
-    "pages/openapi/openapi"
+    "page/component/search/search"
   ],
   "window": {
     "navigationBarTextStyle": "white",

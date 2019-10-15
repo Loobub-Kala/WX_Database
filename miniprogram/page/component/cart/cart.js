@@ -6,15 +6,6 @@ Page({
     hasList: false, // 列表是否有数据
     totalPrice: 0, // 总价，初始为0
     selectAllStatus: false, // 全选状态，默认不全选
-    /*snackCart: {
-      id: null,
-      name: '',
-      weight: null,
-      price: '',
-      image: '',
-      count: null,
-      selected: null
-    }*/
   },
   //?name={{snakeDetail.name}}&weight={{snakeDetail.parameter}}&price={{snakeDetail.price}}&image={{snakeDetail.image}}&count={{num}}&selected=false
   onReady() {
@@ -82,30 +73,6 @@ Page({
       hasList: hasList
     })
     console.log('onHasList：' + this.data.hasList + '  sel:' + sel.length)
-    /*let hasList = null
-    const db = wx.cloud.database()
-    db.collection('SnacksCart').count({
-      success: res => {
-        //数据库是否有数据
-        if (res.total == 0)
-          hasList = false
-        else
-          hasList = true
-        // 在返回结果中会包含新创建的记录的 _id
-        this.setData({
-          totalNum: res.total,
-          hasList: hasList
-        })
-        console.log('[数据库SnacksCart] [查询数量] 成功，记录 count：' + res.total)
-      },
-      fail: err => {
-        wx.showToast({
-          icon: 'none',
-          title: '查询数据库数量失败'
-        })
-        console.error('[数据库SnacksCart] [查询数量] 失败：', err)
-      }
-    })*/
   },
 
   //修改数据库数量

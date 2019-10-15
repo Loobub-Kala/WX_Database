@@ -13,15 +13,6 @@ Page({
       parameter: '', //产品参数
       guarantee: '' //售后保障
     },
-    /*snackCart: {
-      name: '',
-      weight: null,
-      price: '',
-      image: '',
-      count: null,
-      _openid: '',
-      selected: false
-    },*/
     addId: null,
     num: 1, //选择购买的数量
     totalNum: 0,

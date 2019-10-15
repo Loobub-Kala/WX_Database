@@ -4,8 +4,6 @@
       <open-data type="userAvatarUrl"></open-data>
     </view>
     <open-data type="userNickName"></open-data>
-    <!--<image src="{{thumb}}" class="thumb"></image>
-        <text class="nickname">{{nickname}}</text>-->
     <text class="about">关于我们</text>
   </view>
   <view class="address-box">
